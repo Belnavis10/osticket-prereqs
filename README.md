@@ -29,7 +29,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 5 Create the directory C:\PHP
 - Item 6 Download and Unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
 - Item 7 Download and install VC_redist.x86.exe
-- Item 8 Download and install MySQL_5.5.62
+- Item 8 Download and install MySQL_5.5.62 (
+- Item 9 Configure Usernames and password for MySQL
+- Item 10 Register PHP from within ISS
 
 <h2>Installation Steps</h2>
 
