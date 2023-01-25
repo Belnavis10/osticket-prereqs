@@ -32,10 +32,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 8 Download and install MySQL_5.5.62 (
 - Item 9 Configure Usernames and password for MySQL
 - Item 10 Register PHP from within ISS
-- Item 11 Download osTicket v1.15.8
 
+       
 
 <h2>Installation Steps</h2>
+- Download osTicket v1.15.8
+- Extract and copy "upload" folder to c:\inetpub\wwwroot
+- Within c:\inetpub\wwwroot, Rename "upload" to "osTicket"
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
