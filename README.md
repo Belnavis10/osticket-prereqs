@@ -22,21 +22,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1 Create a Virtual Machine Windows 10, 4vCPUs in Azure
-- Item 2 Enable IIS in Windows with CGI
-- Item 3 Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-- Item 4 Download and install Rewrite Module (rewrite_amd_en-US.msi)
-- Item 5 Create the directory C:\PHP
-- Item 6 Download and Unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
-- Item 7 Download and install VC_redist.x86.exe
-- Item 8 Download and install MySQL_5.5.62 (
-- Item 9 Configure Usernames and password for MySQL
-- Item 10 Register PHP from within ISS
+-  Create a Virtual Machine Windows 10, 4vCPUs in Azure
+-  Install PHP Manager for IIS
+-  Install Rewrite Module
+-  Install PHP 7.3.8
+-  Install Vc redist.x86.exe
+-  Install MySQL 5.5.62
+
+
 
        
 
 <h2>Installation Steps</h2>
-- Download osTicket v1.15.8
+- Connect to your virtual machine via Remote Desktop
 - Extract and copy "upload" folder to c:\inetpub\wwwroot
 - Within c:\inetpub\wwwroot, Rename "upload" to "osTicket"
 
