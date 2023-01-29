@@ -54,6 +54,70 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/RGHXeRq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+-  Install Rewrite Module
+ 
+<p>
+<img src="https://i.imgur.com/LMJfOar.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+-  Install PHP 7.3.8 by first creating a PHP folder on the C drive and then downloading and unzipping and extracting all the file contents
+   into the PHP file that was just created.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/n9EoIwq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+-  Install Vc redist.x86.exe
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Qso7Mzk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+-  Install MySQL 5.5.62, do a typical Install and setup credentials Username: root Password: Password1
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Ni1kFnI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+-  Now Open IIS as an Admin and register PHP from within IIS then reload IIS and
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <p>
 It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
 </p>
