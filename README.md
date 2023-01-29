@@ -62,6 +62,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
+       
 -  Install PHP 7.3.8 by first creating a PHP folder on the C drive and then downloading and unzipping and extracting all the file contents
    into the PHP file that was just created.
 </p>
@@ -71,7 +72,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/n9EoIwq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+       
 -  Install Vc redist.x86.exe
+       
 </p>
 <br />
 
@@ -79,7 +82,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/Qso7Mzk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+       
 -  Install MySQL 5.5.62, do a typical Install and setup credentials Username: root Password: Password1
+       
 </p>
 <br />
 
@@ -87,46 +92,90 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/Ni1kFnI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--  Now Open IIS as an Admin and register PHP from within IIS then reload IIS and
+       
+-  Now Open IIS as an Admin and  then reload IIS
+-  Register PHP from within IIS
+-  Restart the server
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uiFmLH5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+       
+-  Install osTicket v1.15.8
+-  Download osTicket
+-  Extract and copy"upload" folder to c:\inerpub\wwwroot
+-  In c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+-  Restart Server
+-  Go to sites -> Default-> os Ticket
+-  On the right click browse *80. osTicket Installer should appear
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5yfTSmF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/ >
 </p>
 <p>
-It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+       
+-  Click “Enable or disable an extension”
+-  Enable: php_imap.dll
+-  Enable: php_intl.dll
+-  Enable: php_opcache.dll
+-  Refresh the osTicket and you should see the additional extentions enabled
+-  Rename ost-config.php from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to -> C:\inetpub\wwwroot\osTicket\include\ost-config.php
+-  Assign Permissions: ost-config.php
+-  Disable inheritance -> Remove All
+-  New Permissions-> Everyone-> All
+-  Click continue on osTicket installer and proceed complted required fields
+       
+     
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0mWKAtA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+       
+-  Download and Install HeidiSQL
+-  Open HeidiSQL
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yR82XDl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+       
+-  Create a new session, root/Password1
+-  Connect to the session
+-  Create a database called “osTicket”
+-  Continue Setting up osTicket in browser with the following input below and click install now
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tha5uO9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+       
+-  osTicket should have installed successfully, you will see the screen below
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/QHXvCLA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+       
+-  Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+-  Enduser osTicket URL:  http://localhost/osTicket/
+       
+</p>
+<br />
+
+
